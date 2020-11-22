@@ -1,7 +1,7 @@
 " 显示当前模式
 set showmode
 " 共享系统粘贴板
-set clipborad=unamed
+set clipboard+=unnamed
 " 打开行号
 set number
 " 打开相对行号
@@ -36,7 +36,7 @@ set nowrap
 " 将制表符扩展为空格
 set expandtab
 " 设置编辑时制表符占用空格数
-set tabstop=4
+set tabstop=8
 " 设置格式化时制表符占用空格数
 set shiftwidth=4
 " 让 vim 把连续数量的空格视为一个制表符
